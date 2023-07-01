@@ -9,7 +9,7 @@ rem OVR Advanced Settings を起動するURL
 set OVR_Advanced_Settings="steam://rungameid/1009850"
 
 rem VRChat を起動するURL
-set VRChat="steam://rungameid/438100//-screen-width 0 -screen-height 0"
+set VRChat="steam://rungameid/438100//-screen-width 300 -screen-height 200"
 
 rem ----------設定部分---------- end
 
