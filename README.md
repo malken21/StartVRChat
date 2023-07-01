@@ -4,10 +4,6 @@ SteamVR や VRChat などを起動する bat ファイル
 
 ## ファイルの説明
 
-"util"ディレクトリ内にある bat ファイルは 部品として使われるファイルなので、
-
-削除したり書き換えたりはしないでください。
-
 ### StartVRC.bat
 
 `SteamVR` `VRChat` `OVR Advanced Settings` を起動する
