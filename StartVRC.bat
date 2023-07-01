@@ -17,7 +17,7 @@ rem ----------設定部分---------- end
 rem SteamVR 起動
 start "" %SteamVR%
 rem SteamVR が起動するまで 待機
-call ./util/wait_vrmonitor.bat
+call ./util/wait_task.bat vrmonitor.exe 3
 
 rem VRChat 起動
 start "" %VRChat%
