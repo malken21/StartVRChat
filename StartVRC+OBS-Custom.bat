@@ -14,7 +14,7 @@ set OVR_Advanced_Settings="steam://rungameid/1009850"
 rem OBS Studio のパス
 set OBS_Studio_Path="C:\Program Files\obs-studio\bin\64bit"
 rem OBS Studio を起動するコマンド
-set OBS_Studio_Start=obs64.exe --startrecording --minimize-to-tray
+set OBS_Studio_Start="obs64.exe --startrecording"
 
 rem ----------設定部分---------- end
 
@@ -45,7 +45,7 @@ rem ----------関数---------- start
 
 :task_start
 rem "第1引数" を 実行
-start "" %1
+start "" %~1
 rem コンソールに文字 出力
 echo %~2 Start!!
 exit /b
@@ -53,7 +53,7 @@ exit /b
 :task_wait
 rem "第1引数" が 起動するまで 待機
 :loop
-tasklist | find "%1" >nul 2>&1
+tasklist | find "%~1" >nul 2>&1
 if errorlevel 1 (
     rem "第2引数" 秒ごとに 起動しているか確認
     timeout /t %2 /nobreak >nul
