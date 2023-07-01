@@ -34,6 +34,5 @@ call ./util/task_start.bat %OVR_Advanced_Settings% "OVR Advanced Settings"
 
 rem OBS Studio があるディレクトリに移動
 cd /d %OBS_Studio_Path%
-
 rem OBS Studio 起動
 call ./util/task_start.bat %OBS_Studio_Start% "OBS Studio"
