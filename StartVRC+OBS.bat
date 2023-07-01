@@ -2,19 +2,19 @@
 
 rem ----------設定部分---------- start
 
-rem SteamVR を起動するURL
+rem SteamVR を起動する
 set SteamVR="steam://rungameid/250820"
 
-rem VRChat を起動するURL
+rem VRChat を起動する
 set VRChat="steam://rungameid/438100"
 
-rem OVR Advanced Settings を起動するURL
+rem OVR Advanced Settings を起動する
 set OVR_Advanced_Settings="steam://rungameid/1009850"
 
 rem OBS Studio のパス
 set OBS_Studio_Path="C:\Program Files\obs-studio\bin\64bit"
 rem OBS Studio を起動するコマンド
-set OBS_Studio_Start=obs64.exe --startrecording
+set OBS_Studio_Start="obs64.exe --startrecording"
 
 rem ----------設定部分---------- end
 
