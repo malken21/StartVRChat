@@ -1,4 +1,4 @@
 @echo off
 
 start "" %1
-echo %2 Start!!
+echo %~2 Start!!
