@@ -17,3 +17,11 @@ SteamVR や VRChat などを起動する bat ファイル
 `SteamVR` `VRChat` `OVR Advanced Settings` を起動し、
 
 VRChat の起動が完了したら `OBS Studio` を録画開始している状態で起動する
+
+### StartVRC-Custom.bat
+
+StartVRC.bat の設定を自分用に変更したもの
+
+### StartVRC+OBS-Custom.bat
+
+StartVRC+OBS.bat の設定を自分用に変更したもの
