@@ -5,11 +5,11 @@ rem ----------設定部分---------- start
 rem SteamVR を起動するURL
 set SteamVR="steam://rungameid/250820"
 
+rem VRChat を起動するURL
+set VRChat="steam://rungameid/438100//-screen-width 1920 -screen-height 1080 -monitor 2"
+
 rem OVR Advanced Settings を起動するURL
 set OVR_Advanced_Settings="steam://rungameid/1009850"
-
-rem VRChat を起動するURL
-set VRChat="steam://rungameid/438100//-screen-width 1920 -screen-height 1080"
 
 rem OBS Studio のパス
 set OBS_Studio_Path="C:\Program Files\obs-studio\bin\64bit"
