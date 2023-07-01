@@ -14,7 +14,7 @@ set VRChat="steam://rungameid/438100"
 rem OBS Studio のパス
 set OBS_Studio_Path="C:\Program Files\obs-studio\bin\64bit"
 rem OBS Studio を起動するコマンド
-set OBS_Studio_Start="obs64.exe --startrecording"
+set OBS_Studio_Start=obs64.exe --startrecording
 
 rem ----------設定部分---------- end
 
