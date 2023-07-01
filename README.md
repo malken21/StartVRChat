@@ -20,8 +20,8 @@ VRChat の起動が完了したら `OBS Studio` を録画開始している状�
 
 ### StartVRC-Custom.bat
 
-StartVRC.bat の設定を自分用に変更したもの
+[StartVRC.bat](#startvrcbat) の設定を自分用に変更したもの
 
 ### StartVRC+OBS-Custom.bat
 
-StartVRC+OBS.bat の設定を自分用に変更したもの
+[StartVRC+OBS.bat](#startvrcobsbat) の設定を自分用に変更したもの
