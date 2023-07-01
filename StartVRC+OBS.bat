@@ -36,4 +36,4 @@ rem OBS Studio があるディレクトリに移動
 cd /d %OBS_Studio_Path%
 
 rem OBS Studio 起動
-call ./util/task_start.bat %~OBS_Studio_Start% "OBS Studio"
+call ./util/task_start.bat %OBS_Studio_Start% "OBS Studio"
